@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Form Field Text Converter",
+  "version": "1.0",
+  "description": "Automatically converts uppercase text to lowercase in form fields.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
